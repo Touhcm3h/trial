@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/cf5bdb316c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Page</title>    
+</head>
+    
+    <body>
+        
+        <!---Side bar--->
+        <div class="wrapper">
+            <div class="sidebar">
+                <h2>Baked Goods</h2>
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-gauge"></i>Dashboard</a></li>
+                    <li><a href="User.html"><i class="fa-solid fa-users"></i>Users</a></li>
+                    <li><a href="Activitylog.html"><i class="fa-solid fa-chart-line"></i>Activity log</a></li>
+                    <li><a href="Products.html"><i class="fa-solid fa-box"></i>Products</a></li>
+                </ul>
+            </div>
+
+            <!----Header--->
+            <div class="main_content">
+                <div class="header">
+                    <div class="nav">
+                        <div class="dropdown-notification">
+                            <img src="pic/notifications.png">
+                            <div class="dropdown-content">
+                                <p>You have a notification</p>
+                                <p>I want to order</p>
+                            </div>
+                        </div>
+            
+                        <div class="userprof">
+                           <img src="pic/user.png">
+                        </div>
+                    </div>
+                </div>
+
+               <h2 id="brand">Baked Goods / Dashboard</h2>
+                
+               <!---Divider--->
+               <hr class="solid">
+
+               <!-----Cards---->
+                <div class="content">
+                    <div class="cards">
+                        <div class="card">
+                            <h2>10</h2>
+                            <h3>Users</h3>
+                        </div>
+                        <div class="card">
+                            <h2>10</h2>
+                            <h3>Store</h3>
+                        </div>
+                    </div>
+                </div>
+            
+                <!----Activity log table--->
+                <div class="table-one">
+                    <div class="header2">
+                        <h5>Activity log &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="Activitylog.html"><button type="button" class="btn btn-success">Activity log</button></a></h5>
+                    </div>
+                        <table class="activitylogtable">
+                        <tr>
+                            <th>User ID</th>
+                            <th>User Full Name</th>
+                            <th>User Type</th>
+                            <th>Activity log</th>
+                            <th>Date & Time</th>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>Joseph C. Alito</td>
+                            <td>Administrator</td>
+                            <td>Remove User Name Red Valentine</td>
+                            <td>3/15/2021 at
+                                8:30 am
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Frederick Z. Stainer</td>
+                            <td>Customer</td>
+                            <td>Succesful Order From So Pastry By Tarah</td>
+                            <td>3/15/2021 at
+                                11:11 pm
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>25</td>
+                            <td>Mary Angel A. Pagsanay</td>
+                            <td>Owner</td>
+                            <td>Cancel order of Janica Velosa</td>
+                            <td>3/15/2021 at
+                                3:15 pm
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

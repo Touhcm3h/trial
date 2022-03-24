@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/cf5bdb316c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Admin Page</title>    
+</head>
+    
+    <body>
+
+        <!---Side bar--->
+        <div class="wrapper">
+            <div class="sidebar">
+                <h2>Baked Goods</h2>
+                <ul>
+                    <li><a href="index.html"><i class="fa-solid fa-gauge"></i>Dashboard</a></li>
+                    <li><a href="User.html"><i class="fa-solid fa-users"></i>Users</a></li>
+                    <li><a href="Activitylog.html"><i class="fa-solid fa-chart-line"></i>Activity log</a></li>
+                    <li><a href="Products.html"><i class="fa-solid fa-box"></i>Products</a></li>
+                </ul>
+            </div>
+
+            <!----Header--->
+            <div class="main_content">
+                <div class="header">
+                    <div class="nav">
+                        <div class="dropdown-notification">
+                            <img src="pic/notifications.png">
+                            <div class="dropdown-content">
+                                <p>Link 1</p>
+                                <p>Link 2</p>
+                            </div>
+                        </div>
+                        <div class="userprof">
+                            <img src="pic/user.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <h2 id="brand">Baked Goods / Products</h2>
+
+                <!---Divider-->
+                <hr class="solid">
+
+                <!---Product information--->
+                <h6 id="information">So Patsry by Tarah product information</h6>
+                <hr class="solid">
+
+
+                <!----Total Products---->
+                <h6 id="total-btn">Total products: &nbsp; <button type="button" class="btn btn-success">20</button></h6>
+
+
+                <!---Products--->
+                <div class="card-two">
+                    <img class="card-img-top" src="products/chococupcake.jpg" alt="">
+                    <div class="card-body">
+                      <p>Chocolate Cupcake</p>
+                      <button class="readmo">View</button>
+
+                      <div class="modal-bg">
+                          <div class="modal">
+                              <h3>Please buy me</h3>
+                              <label for="name">Name: </label>
+                              <input type="text" name="name">
+                              <label for="email">Email: </label>
+                              <input type="email" name="email">
+                              <button>Subscribe</button>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="card-two">
+                    <img class="card-img-top" src="products/cake.jpg" alt="">
+                    <div class="card-body">
+                      <p>Super Cake</p>
+                      <button class="readmo">View</button>
+                    </div>
+                </div>
+                <div class="card-two">
+                    <img class="card-img-top" src="products/Pear Puff.jpg" alt="">
+                    <div class="card-body">
+                      <p>Pearpuff</p>
+                      <button class="readmo">View</button>
+                    </div>
+                </div>
+                <div class="card-two">
+                    <img class="card-img-top" src="products/Break fast.jpg" alt="">
+                    <div class="card-body">
+                      <p>Breakfast</p>
+                      <button class="readmo">View</button>
+                    </div>
+                </div>
+                <div class="card-two">
+                    <img class="card-img-top" src="products/Choux.jpg" alt="">
+                    <div class="card-body">
+                      <p>Choux</p>
+                      <button class="readmo">View</button>
+                    </div>
+                </div>
+                <div class="card-two">
+                    <img class="card-img-top" src="products/Puff.jpg" alt="">
+                    <div class="card-body">
+                      <p>Puffs</p>
+                      <button class="readmo">View</button>
+                    </div>
+                </div>
+                <div class="card-two">
+                    <img class="card-img-top" src="products/Danish pastry.jpg" alt="">
+                    <div class="card-body">
+                      <p>Danish Pastry</p>
+                      <button class="readmo">View</button>
+                    </div>
+                </div>
+                <div class="card-two">
+                    <img class="card-img-top" src="products/chococupcake.jpg" alt="">
+                    <div class="card-body">
+                      <p>Choco Cupcake</p>
+                      <button class="readmo">View</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
