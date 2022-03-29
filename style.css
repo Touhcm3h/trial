@@ -166,10 +166,9 @@ th, td{
 }
 .wrapper .main_content .card-two{
     width: 20%;
-    border-radius: 5px;
     display: inline-block;
     background-color: white;
-    border: 2px solid #000;
+    border: 1px solid #000;
     margin-top: 25px;
     margin-left: 50px;
     margin-bottom: 20px;
